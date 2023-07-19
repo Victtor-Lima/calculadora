@@ -6,7 +6,7 @@
     padding: 0px;
 }
 
-body {
+body, html {
     background-color: black;
     width: 100vw;
     height: 100vh;
@@ -19,12 +19,45 @@ main {
     height: 100vh;
 }
 
-section.container {
+section {
     position: relative;
     top: 50%;
     left: 50%;
-
+    width: 300px;
+    height: 300px;
     background-color: darkorange;
-
     transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+section > h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+section > p {
+    text-align: center;
+}
+
+section > input {
+   display: block;
+   margin: auto;
+}
+
+section > input.num {
+    text-align: center;
+    height: 25px;
+    margin-top: 10px;
+}
+
+section > input.soma {
+    margin-top: 10px;
+    width: 150px;
+    height: 23px;
+}
+
+div#res {
+    text-align: center;
+    margin-top: 15px;
 }
