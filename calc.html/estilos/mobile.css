@@ -38,6 +38,7 @@ section > h1 {
 
 section > p {
     text-align: center;
+    margin-bottom: 20px;
 }
 
 section > input {
@@ -57,7 +58,17 @@ section > input.soma {
     height: 23px;
 }
 
+section > div {
+    display: block;
+    margin: auto;
+}
+
 div#res {
-    text-align: center;
-    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 1.1em;
+    margin-top: 20px;
+    border-radius: 5px;
 }
