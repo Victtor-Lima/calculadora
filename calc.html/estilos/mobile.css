@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    position: relative;
+    background-color: blueviolet;
+    width: 100vw;
+    height: 100vh;
+}
+
+section.container {
+    position: relative;
+    top: 50%;
+    left: 50%;
+
+    background-color: darkorange;
+
+    transform: translate(-50%, -50%);
+}
