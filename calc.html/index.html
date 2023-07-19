@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somando valores</title>
+</head>
+<body>
+    <main>
+        <h1>Calculadora</h1>
+        <p>Preencha os campos abaixo e receber seu resultado!</p>
+        <input type="number" name="calc1" id="calc1"> +
+        <input type="number" name="calc2" id="calc2">
+        <input type="button" value="Somar" onclick="somar()">
+        <div id="res">Resultado:</div>
+    </main>
+    <script>
+        var calc1 = window.document.getElementById('calc1')
+        var calc2 = window.document.getElementById('calc2')
+        var res = window.document.getElementById('res')
+        var n1 = Number(calc1.value)
+        var n2 = Number(cacl2.value)
+        var s = n1 + n2
+        
+    </script>
+</body>
+</html>
