@@ -51,13 +51,15 @@ section > input {
 section > input.num {
     text-align: center;
     height: 25px;
+    width: 250px;
     margin-top: 10px;
 }
 
 section > input.soma {
     margin-top: 10px;
-    width: 150px;
-    height: 23px;
+    width: 200px;
+    height: 25px;
+    font-weight: bold;
 }
 
 section > div {
