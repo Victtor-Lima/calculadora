@@ -38,6 +38,7 @@ section > h1 {
 }
 
 section > p {
+    font-size: 1.1em;
     text-align: center;
     margin-bottom: 20px;
 }
