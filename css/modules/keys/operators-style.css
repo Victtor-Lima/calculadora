@@ -1,0 +1,7 @@
+.operators.opera-col {
+  grid-column: 4;
+}
+
+.operators:nth-child(8) {
+  background: #8ab4f8;
+}

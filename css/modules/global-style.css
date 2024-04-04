@@ -1,0 +1,26 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  color: #eee;
+}
+ul, li {
+  list-style: none;
+}
+a {
+  display: block;
+  text-decoration: none;
+}
+
+/* Utilitários */
+
+.container {
+ width: 600px;
+}
