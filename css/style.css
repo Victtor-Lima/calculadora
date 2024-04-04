@@ -1,0 +1,5 @@
+@import './modules/global-style.css';
+@import './modules/screen/screen-style.css';
+@import './modules/keys/keys-style.css';
+@import './modules/keys/operators-style.css';
+@import './modules/keys/numbers-style.css';

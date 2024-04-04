@@ -1,0 +1,34 @@
+.container-screen {
+  display: grid;
+  align-items: end;
+  width: 600px;
+  height: max-content;
+  background: #222;
+  padding: 20px;
+  border-radius: 10px 10px 0 0;
+  box-sizing: border-box;
+}
+
+.operations {
+  display: grid;
+  justify-items: end;
+  width: 100%;
+  height: max-content;
+  padding: 10px;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.operations span {
+  display: block;
+  color: #eee;
+}
+
+.selected {
+  margin-bottom: 5px;
+}
+
+.result {
+  font-size: 1.8rem;
+}
