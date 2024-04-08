@@ -32,7 +32,7 @@ export default function initOperation() {
       selected = selected.slice(0, -1) + elText;
     }
     
-    panel.innerText = selected.replace(/x/g, '*').replace('.', ',');
+    panel.innerText = selected.replace(/x/g, '*');
   }
 
   function operate() {
