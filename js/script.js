@@ -1,3 +1,3 @@
-import initOperation from "./modules/operation";
+import initOperation from "./modules/file-calculator/operation";
 
 initOperation();
