@@ -1,7 +1,23 @@
+.operations {
+  display: grid;
+  justify-items: end;
+  width: 100%;
+  height: 80px;
+  padding: 10px;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.operations span {
+  display: block;
+  color: #eee;
+}
+
 .operators.opera-col {
   grid-column: 4;
 }
 
-.operators:nth-child(8) {
+.toExecute.opera-col {
   background: #8ab4f8;
 }
